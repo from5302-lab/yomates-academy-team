@@ -129,13 +129,15 @@
   },
   {
    "no": "11",
-   "name": "블로그",
-   "title": "블로그 작가",
+   "name": "홈페이지",
+   "title": "홈페이지 관리자",
    "face": "curly",
-   "description": "학원 블로그 글을 쓰고 올린다",
+   "description": "학원 홈페이지를 만들고 시간표·원비·공지를 고쳐 배포한다",
    "skills": [
     "학원-정보-장부",
-    "학원-블로그-글"
+    "학원-홈페이지-관리",
+    "학원-화면-uiux-점검",
+    "firebase-세팅"
    ]
   },
   {
@@ -202,12 +204,16 @@
    "name": "학교-일정과-입시-공지"
   },
   {
-   "file": "skills/blog.md",
-   "name": "학원-블로그-글"
-  },
-  {
    "file": "skills/manager.md",
    "name": "하루-보고와-일-나누기"
+  },
+  {
+   "file": "skills/homepage.md",
+   "name": "학원-홈페이지-관리"
+  },
+  {
+   "file": "skills/uiux.md",
+   "name": "학원-화면-uiux-점검"
   }
  ],
  "external": [
@@ -220,6 +226,11 @@
    "name": "threads-연결",
    "skill_url": "https://raw.githubusercontent.com/from5302-lab/yomates-threads-skill/main/SKILL.md",
    "why": "마케터 스레드 글 올리기"
+  },
+  {
+   "name": "firebase-세팅",
+   "skill_url": "https://raw.githubusercontent.com/from5302-lab/yomates-firebase-skill/main/SKILL.md",
+   "why": "홈페이지 주소 만들기, Firebase CLI 설치·로그인·배포"
   }
  ]
 }
