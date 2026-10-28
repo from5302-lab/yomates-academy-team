@@ -1,18 +1,225 @@
 {
-  "updated": "2026-10-28",
-  "room": "우리 학원",
-  "agents": [
-    {"no": "01", "name": "상담실장", "title": "상담 실장", "face": "headset", "description": "신규 문의에 첫 답장을 하고 상담 예약을 잡는다"},
-    {"no": "02", "name": "데스크", "title": "데스크", "face": "cap", "description": "결석 안내를 보내고 보강 시간을 잡는다"},
-    {"no": "03", "name": "수납", "title": "수납 담당", "face": "beanie", "description": "원비를 청구하고 미납을 안내한다"},
-    {"no": "04", "name": "학습매니저", "title": "학습 매니저", "face": "glasses", "description": "학생별 월말 리포트를 완성한다"},
-    {"no": "05", "name": "강사코디", "title": "강사 코디", "face": "ponytail", "description": "강사 수업 일지를 모으고 강사 공지를 보낸다"},
-    {"no": "06", "name": "수업조교", "title": "수업 조교", "face": "camera", "description": "수업 녹화를 정리해 올리고 링크를 나눈다"},
-    {"no": "07", "name": "마케터", "title": "마케터", "face": "fringe", "description": "스레드·인스타 글을 올리고 후기를 모은다"},
-    {"no": "08", "name": "채점조교", "title": "채점 조교", "face": "bob", "description": "과제와 시험을 채점하고 오답을 정리한다"},
-    {"no": "09", "name": "출제", "title": "시험 출제", "face": "beard", "description": "단어 시험지와 내신 대비 문제지를 만든다"},
-    {"no": "10", "name": "입시정보", "title": "입시 정보", "face": "topknot", "description": "학교 일정과 입시 공지를 정리해 학부모 안내로 만든다"},
-    {"no": "11", "name": "블로그", "title": "블로그 작가", "face": "curly", "description": "학원 블로그 글을 쓰고 올린다"},
-    {"no": "12", "name": "매니저", "title": "매니저", "face": "buns", "description": "원장님 말을 받아 팀에 일을 나누고 하루 결과를 보고한다"}
-  ]
+ "updated": "2026-10-28",
+ "room": "우리 학원",
+ "agents": [
+  {
+   "no": "01",
+   "name": "상담실장",
+   "title": "상담 실장",
+   "face": "headset",
+   "description": "신규 문의에 첫 답장을 하고 상담 예약을 잡는다",
+   "skills": [
+    "학원-정보-장부",
+    "학원-문자-보내기",
+    "상담-첫답장과-예약",
+    "solapi-연결"
+   ]
+  },
+  {
+   "no": "02",
+   "name": "데스크",
+   "title": "데스크",
+   "face": "cap",
+   "description": "결석 안내를 보내고 보강 시간을 잡는다",
+   "skills": [
+    "학원-정보-장부",
+    "학원-문자-보내기",
+    "결석-안내와-보강",
+    "solapi-연결"
+   ]
+  },
+  {
+   "no": "03",
+   "name": "수납",
+   "title": "수납 담당",
+   "face": "beanie",
+   "description": "원비를 청구하고 미납을 안내한다",
+   "skills": [
+    "학원-정보-장부",
+    "학원-문자-보내기",
+    "원비-청구와-미납-안내",
+    "solapi-연결"
+   ]
+  },
+  {
+   "no": "04",
+   "name": "학습매니저",
+   "title": "학습 매니저",
+   "face": "glasses",
+   "description": "학생별 월말 리포트를 완성한다",
+   "skills": [
+    "학원-정보-장부",
+    "학원-문자-보내기",
+    "월말-리포트-쓰기",
+    "solapi-연결"
+   ]
+  },
+  {
+   "no": "05",
+   "name": "강사코디",
+   "title": "강사 코디",
+   "face": "ponytail",
+   "description": "강사 수업 일지를 모으고 강사 공지를 보낸다",
+   "skills": [
+    "학원-정보-장부",
+    "학원-문자-보내기",
+    "강사-일지-취합",
+    "solapi-연결"
+   ]
+  },
+  {
+   "no": "06",
+   "name": "수업조교",
+   "title": "수업 조교",
+   "face": "camera",
+   "description": "수업 녹화를 정리해 올리고 링크를 나눈다",
+   "skills": [
+    "학원-정보-장부",
+    "학원-문자-보내기",
+    "수업-녹화-정리-업로드",
+    "solapi-연결"
+   ]
+  },
+  {
+   "no": "07",
+   "name": "마케터",
+   "title": "마케터",
+   "face": "fringe",
+   "description": "스레드·인스타 글을 올리고 후기를 모은다",
+   "skills": [
+    "학원-정보-장부",
+    "학원-sns-글과-후기",
+    "threads-연결"
+   ]
+  },
+  {
+   "no": "08",
+   "name": "채점조교",
+   "title": "채점 조교",
+   "face": "bob",
+   "description": "과제와 시험을 채점하고 오답을 정리한다",
+   "skills": [
+    "학원-정보-장부",
+    "채점과-오답-정리"
+   ]
+  },
+  {
+   "no": "09",
+   "name": "출제",
+   "title": "시험 출제",
+   "face": "beard",
+   "description": "단어 시험지와 내신 대비 문제지를 만든다",
+   "skills": [
+    "학원-정보-장부",
+    "시험지-만들기"
+   ]
+  },
+  {
+   "no": "10",
+   "name": "입시정보",
+   "title": "입시 정보",
+   "face": "topknot",
+   "description": "학교 일정과 입시 공지를 정리해 학부모 안내로 만든다",
+   "skills": [
+    "학원-정보-장부",
+    "학원-문자-보내기",
+    "학교-일정과-입시-공지",
+    "solapi-연결"
+   ]
+  },
+  {
+   "no": "11",
+   "name": "블로그",
+   "title": "블로그 작가",
+   "face": "curly",
+   "description": "학원 블로그 글을 쓰고 올린다",
+   "skills": [
+    "학원-정보-장부",
+    "학원-블로그-글"
+   ]
+  },
+  {
+   "no": "12",
+   "name": "매니저",
+   "title": "매니저",
+   "face": "buns",
+   "description": "원장님 말을 받아 팀에 일을 나누고 하루 결과를 보고한다",
+   "skills": [
+    "학원-정보-장부",
+    "하루-보고와-일-나누기",
+    "학원-문자-보내기",
+    "solapi-연결"
+   ]
+  }
+ ],
+ "skills": [
+  {
+   "file": "skills/info.md",
+   "name": "학원-정보-장부"
+  },
+  {
+   "file": "skills/sms.md",
+   "name": "학원-문자-보내기"
+  },
+  {
+   "file": "skills/consult.md",
+   "name": "상담-첫답장과-예약"
+  },
+  {
+   "file": "skills/desk.md",
+   "name": "결석-안내와-보강"
+  },
+  {
+   "file": "skills/pay.md",
+   "name": "원비-청구와-미납-안내"
+  },
+  {
+   "file": "skills/report.md",
+   "name": "월말-리포트-쓰기"
+  },
+  {
+   "file": "skills/tutor.md",
+   "name": "강사-일지-취합"
+  },
+  {
+   "file": "skills/record.md",
+   "name": "수업-녹화-정리-업로드"
+  },
+  {
+   "file": "skills/sns.md",
+   "name": "학원-sns-글과-후기"
+  },
+  {
+   "file": "skills/grade.md",
+   "name": "채점과-오답-정리"
+  },
+  {
+   "file": "skills/exam.md",
+   "name": "시험지-만들기"
+  },
+  {
+   "file": "skills/admission.md",
+   "name": "학교-일정과-입시-공지"
+  },
+  {
+   "file": "skills/blog.md",
+   "name": "학원-블로그-글"
+  },
+  {
+   "file": "skills/manager.md",
+   "name": "하루-보고와-일-나누기"
+  }
+ ],
+ "external": [
+  {
+   "name": "solapi-연결",
+   "skill_url": "https://raw.githubusercontent.com/from5302-lab/yomates-solapi-skill/main/SKILL.md",
+   "why": "문자 발송 기본(솔라피)"
+  },
+  {
+   "name": "threads-연결",
+   "skill_url": "https://raw.githubusercontent.com/from5302-lab/yomates-threads-skill/main/SKILL.md",
+   "why": "마케터 스레드 글 올리기"
+  }
+ ]
 }
