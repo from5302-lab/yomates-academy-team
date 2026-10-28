@@ -14,6 +14,7 @@ curl -fsSL https://raw.githubusercontent.com/from5302-lab/yomates-academy-team/m
 curl -fsSL https://raw.githubusercontent.com/from5302-lab/yomates-academy-team/main/agents/common.md
 ```
 윈도우(PowerShell)는 `(Invoke-WebRequest 주소).Content`로 받는다.
+깃허브가 파일을 몇 분 동안 저장해 두므로, 저장소를 고친 직후 5분 안에는 예전 판이 받아질 수 있다. 업데이트가 안 보이면 5분 뒤 다시 받는다.
 팀원 한 명의 지시문은 `agents/{no}.md`다(예: agents/01.md). team.json의 12명을 차례로 받는다.
 
 ## 2. 원장님께 한 번에 묻기
