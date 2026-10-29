@@ -1,5 +1,9 @@
 # yomates-academy-team
 
+<!-- yomates-install:readme -->
+> **먼저 요메이트(Yomates)가 필요해요.** 이 스킬은 요메이트 앱 안에서 돌아가요. 아직 설치하지 않았다면 [YOMATES-INSTALL.md](YOMATES-INSTALL.md) 순서대로 설치한 뒤 돌아오세요. 공식 다운로드는 https://yomates.ai 하나뿐이에요.
+<!-- /yomates-install:readme -->
+
 학원 원장님 요메이트(Yomates)에 학원 AI 팀 12명을 한 번에 들이는 스킬이에요. 충쌤(에듀-온) 학원 자동화 컨설팅에서 세팅해 드리는 팀이에요.
 
 ## 설치
